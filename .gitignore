@@ -163,3 +163,4 @@ cython_debug/
 
 # Script for development
 dev.py
+dev_dir

@@ -36,7 +36,7 @@ class Color:
             return n in range(256)
 
         if not all(map(_is_valid, [r, g, b])):
-            raise ValueError("Invalid RGB value: {r}, {g}, {b}")
+            raise ValueError(f"Invalid RGB value: {r}, {g}, {b}")
 
         def _to_hex(n: int) -> str:
             return f"{n:02x}"[:2].upper()
